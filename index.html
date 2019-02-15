@@ -15,51 +15,372 @@
 
     <div class="container-fluid">
         <header>
-                <div class=" div-one img-logo d-flex justify-content-center">
-                    <!-- <img src="./public/images/logo.png" class="img-fluid" alt="Responsive image" id="empor-img"> -->
-                    <h1>emporium.</h1>
+            <div class=" div-one img-logo d-flex justify-content-center">
+                <!-- <img src="./public/images/logo.png" class="img-fluid" alt="Responsive image" id="empor-img ( on à utlise les polcices de caractère et n'on l'image > -->
+                <h1>emporium.</h1>
+            </div>
+            <!-- Navabar link part2 -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-center">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active" id="home-link">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRODUCT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ELEMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+
+                    </ul>
                 </div>
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-center">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item active" id="home-link">
-                                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">PRODUCT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">BLOG</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">ELEMENTS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT</a>
-                            </li>
-
-
-                        </ul>
-                        <div class="carre-navabar">
-                                <button type="button" class="btn btn-light p-2 border border-dark"></button>
-                                <button type="button" class="btn btn-dark p-2"></button>
-                                <button type="button" class="btn btn-dark">Connection</button>
-                        </div>
-
-                    </div>
-                </nav>
+                <div class="carre-navabar">
+                    <button type="button" class="btn btn-light p-2 border border-dark"></button>
+                    <button type="button" class="btn btn-dark p-2"></button>
+                    <button type="button" class="btn btn-dark">Connection</button>
+                </div>
+            </nav>
 
         </header>
     </div>
+    <!-- Premier section -->
+    <section id="first-sec">
+        <!-- .container>.row>col-6*2 -->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 ">
+                    <p class="red-para">Shop at</p>
+
+                    <p class="big-para">emporium.</p>
+
+                    <p class="text-para">A wonderful serenity has taken possesion of my entire soul,like these sweet
+                        moring of spring whicj i enjoy with my</p>
+                    <button type="button" class="btn btn-danger px-4 py-2">SALE ITEMS</button>
+
+
+                </div>
+                <div class="col-lg-6">
+                    <img src="./public/images/slider-1.jpg" class="img-fluid" alt="Responsive image" id="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Seconde section -->
+    <section id="second-sec">
+        <div class="container-fluid">
+            <div class="row  h-100 py-4 ">
+                <!--Card-with-text-->
+                <div class="col-lg-4 ">
+
+                    <div class="card text-white">
+                        <img class="card-img" src="./public/images/services/service-1.jpg" alt="Card image">
+                        <div class="card-img-overlay align-items-center d-flex justify-content-center">
+                            <a href="" class="btn text-white">
+                                <p class="card-text">Living Room</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card  text-white">
+                        <img class="card-img" src="./public/images/services/service-2.jpg" alt="Card image">
+                        <div class="card-img-overlay align-items-center d-flex justify-content-center">
+                            <a href="" class="btn text-white">
+                                <p class="card-text">Sale Items</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card  text-white">
+                        <img class="card-img" src="./public/images/services/slider-3.jpg" alt="Card image">
+                        <div class="card-img-overlay align-items-center d-flex justify-content-center">
+                            <a href="" class="btn text-white">
+                                <p class="card-text">Clothes</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- Middle-title-1 -->
+    <div>
+        <h3 class="between-text d-flex justify-content-center">Recent Products</h3>
+    </div>
+
+    <!-- utliser un hoverflow hidden -->
+    <!-- il à un orde de propité dans les col et les média query tu peux pas mettre un lg après sm et tu peux pas laisse une colle sans lageur de type d'écran sans influt sur ce que l'on voit -->
+
+    <!-- Third section -->
+    <section id="third-sec">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <!-- image-produit+prix  -->
+                <div class="col-lg-4 col-sm-12 ">
+                    <div class="align-items-end justify-content-center" id="englobe">
+
+
+                        <div class=zoom>
+                            <div class=image>
+                                <img src="./public/images/products_mini/product-luxry-sofa.jpg" class="img-fluid" alt="Responsive image">
+                            </div>
+                        </div>
+
+
+
+                        <div class="row no-gutters text-white   " id="maxou">
+                            <div class="col-6" id="overlay-1">
+                                <p>View Details</p>
+                            </div>
+                            <div class="col-6" id="overlay-2">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><a href="" class="btn d-flex justify-content-center">Luxury Sofa</a></h3>
+                        <p class="recent-pro">$600.00</p>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-sm-12">
+                    <div class="align-items-end justify-content-center" id="englobe">
+
+
+
+
+                        <div class=zoom>
+                            <div class=image>
+                                <img src="./public/images/products_mini/product-gloves.jpg" class="img-fluid" alt="Responsive image">
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters text-white   " id="maxou">
+                            <div class="col-6" id="overlay-1">
+                                <p>View Details</p>
+                            </div>
+                            <div class="col-6" id="overlay-2">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+
+                        <h3><a href="" class="btn d-flex justify-content-center">Leather Gloves</a></h3>
+
+                        <!-- grace au d-flex pas besoin de float ou de display inline , il align les element au center grace au justify-content -->
+                        <div class="d-flex justify-content-center">
+                            <div class="onsale bg-danger rounded-circle text-white mr-3 mb-3">Sale!</div>
+                            <p class="discount-pro pr-2 line">$37.00</p>
+                            <p class="recent-pro">$27.00</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12">
+                    <div class="align-items-end justify-content-center" id="englobe">
+
+                        <div class=zoom>
+                            <div class=image>
+                                <img src="./public/images/products_mini/product-cups.jpg" class="img-fluid " alt="Responsive image">
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters text-white   " id="maxou">
+                            <div class="col-6" id="overlay-1">
+                                <p>View Details</p>
+                            </div>
+                            <div class="col-6" id="overlay-2">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><a href="" class="btn d-flex justify-content-center">Colorful Bowl</a></h3>
+                        <p class="recent-pro">$18.00</p>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="align-items-end justify-content-center" id="englobe">
+
+
+
+
+                        <div class=zoom>
+                            <div class=image>
+                                <img src="./public/images/products_mini/product-bag.jpg" class="img-fluid " alt="Responsive image">
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters text-white   " id="maxou">
+                            <div class="col-6" id="overlay-1">
+                                <p>View Details</p>
+                            </div>
+                            <div class="col-6" id="overlay-2">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><a href="" class="btn d-flex justify-content-center">Women Bag</a></h3>
+                        <div class="d-flex justify-content-center">
+                            <div class="onsale bg-danger rounded-circle text-white mr-3 mb-3">Sale!</div>
+                            <p class="discount-pro pr-2 line">$420.00</p>
+                            <p class="recent-pro">$350.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12">
+                    <div class="align-items-end justify-content-center" id="englobe">
+
+                        <div class=zoom>
+                            <div class=image>
+                                <img src="./public/images/products_mini/product-tshitr.jpg" class="img-fluid " alt="Responsive image">
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters text-white   " id="maxou">
+                            <div class="col-6" id="overlay-1">
+                                <p>View Details</p>
+                            </div>
+                            <div class="col-6" id="overlay-2">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><a href="" class="btn d-flex justify-content-center">Minimal T-Shirt</a></h3>
+                        <p class="recent-pro">$15.00</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12">
+                    <div class="align-items-end justify-content-center" id="englobe">
+
+                        <div class=zoom>
+                            <div class=image>
+                                <img src="./public/images/products_mini/product-plates.jpg" class="img-fluid " alt="Responsive image">
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters text-white   " id="maxou">
+                            <div class="col-6" id="overlay-1">
+                                <p>View Details</p>
+                            </div>
+                            <div class="col-6" id="overlay-2">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><a href="" class="btn d-flex justify-content-center">Plates Set</a></h3>
+                        <p class="recent-pro">$30.00</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12">
+                    <div class="align-items-end justify-content-center" id="englobe">
+
+
+                        <div class=zoom>
+                            <div class=image>
+                                <img src="./public/images/products_mini/product-modern-sofa.jpg" class="img-fluid " alt="Responsive image">
+                            </div>
+                        </div>
+
+
+                        <div class="row no-gutters text-white   " id="maxou">
+                            <div class="col-6" id="overlay-1">
+                                <p>View Details</p>
+                            </div>
+                            <div class="col-6" id="overlay-2">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><a href="" class="btn d-flex justify-content-center">Modern Sofa</a></h3>
+                        <p class="recent-pro">$900</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12">
+                    <div class="align-items-end justify-content-center" id="englobe">
+
+
+
+
+                        <div class=zoom>
+                            <div class=image>
+                                <img src="./public/images/products_mini/product-bed.jpg" class="img-fluid " alt="Responsive image">
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters text-white   " id="maxou">
+                            <div class="col-6" id="overlay-1">
+                                <p>View Details</p>
+                            </div>
+                            <div class="col-6" id="overlay-2">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><a href="" class="btn d-flex justify-content-center">Bed Linen</a></h3>
+                        <p class="recent-pro">$79.00</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12">
+                    <div class="align-items-end justify-content-center" id="englobe">
+
+
+                        <div class=zoom>
+                            <div class=image>
+                                <img src="./public/images/products_mini/product-shoes.jpg" class="img-fluid " alt="Responsive image">
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters text-white   " id="maxou">
+                            <div class="col-6" id="overlay-1">
+                                <p>View Details</p>
+                            </div>
+                            <div class="col-6" id="overlay-2">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><a href="" class="btn d-flex justify-content-center">Minimal
+                                Shoes</a></h3>
+                        <p class="recent-pro text-center">$60.00</p>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
     <script src="./src/js/index.js"></script>
 </body>
 
