@@ -15306,18 +15306,6 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url("./../../public/fonts/Poppins-Bold.ttf");
-}
-@font-face {
-  font-family: "Poppins-Regular";
-  src: url("../../public/fonts/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: "Source";
-  src: url("../../public/fonts/SourceSansPro-Regular.ttf");
-}
 h1 {
   padding-bottom: 3rem;
   padding-left: 0.94rem;
@@ -15544,6 +15532,18 @@ hr {
   .big-para {
     font-size: 20px;
   }
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./../../public/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../public/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Source";
+  src: url("../../public/fonts/SourceSansPro-Regular.ttf");
 }
 /* override position and transform in 3.3.x */
 

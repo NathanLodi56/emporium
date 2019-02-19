@@ -1,0 +1,68 @@
+// Third section
+h3
+    font-size: 1.063rem 
+    font-family: $font-MarieBig
+    color: #191919
+
+// EFFECT sass(css) pour afficher le text qui monte sur les images ,
+.englobe
+    position: relative
+    overflow: hidden
+.maxou
+    position: absolute
+    display: flex
+    left: 0
+    right: 0
+    transition: bottom 0.5s ease-out
+    bottom:-40px
+    // width: 100%
+// ne laisse pas d'espace entre les mots et le parents en rajoutant left et right 0 , la meme chose se passe avec width 100%
+// pas utliser de width 100% ni de d-flex (remplacer par des position absolute)
+//Pourquoi bottom:-40px pour que notre row maxou soit mis en dessous et par la suite caché avec overflow hidden qu'on mettera sur le parent  
+    
+.englobe:hover 
+    .maxou
+        bottom: 0
+//bottom : 0 pourquoi la row maxou ce mettera en bas par apport au parent si j'avais mis top la row maxou serait mis en haut 
+// 
+
+
+#overlay-1
+    background-color:#0e0e0e
+#overlay-2
+    background-color: $font-RougeNathan
+
+// Prix recent product 
+
+.recent-pro
+    color: #bd584e
+    font-size: 0.94rem 
+    font-weight: 800
+    $font-MarieBig: 'Poppins-Bold'
+// Prix discount 
+.discount-pro
+    color: #c9c9c9
+    font-size: 0.94rem 
+    font-weight: 800
+    $font-MarieBig: 'Poppins-Bold'
+    text-decoration: line-through
+
+.onsale 
+    //border-radius: 50%
+    background-color: #bd584e
+    font-size: 0.94rem 
+    font-weight: 800
+    $font-MarieBig: 'Poppins-Bold'
+    width: 45px
+    height: 45px
+    padding:11px 5px
+
+.zoom 
+    // width: 320px
+    // height: 240px
+
+.image 
+    transition: all 1s ease
+
+.image:hover 
+    transform: scale(1.25)
