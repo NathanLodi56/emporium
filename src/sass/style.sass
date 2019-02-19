@@ -1,7 +1,9 @@
 $font-MarieBig: 'Poppins-Bold'
 $font-MarieNormal: 'Poppins-Regular'
+$font-RougeNathan: #ca544e
+$danger: #ca544e
+$font-Bron: 'Source'
 
-    
 //Boostrap Import
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
 
@@ -18,6 +20,10 @@ $fa-font-path:"../webfonts"
 @font-face
     font-family: 'Poppins-Regular'
     src: url("../../public/fonts/Poppins-Regular.ttf")
+
+@font-face
+    font-family: 'Source'
+    src: url("../../public/fonts/SourceSansPro-Regular.ttf")
 
 // Header first part 
 h1
@@ -92,10 +98,10 @@ h3
     color: #191919
 
 // EFFECT sass(css) pour afficher le text qui monte sur les images ,
-#englobe
+.englobe
     position: relative
     overflow: hidden
-#maxou
+.maxou
     position: absolute
     display: flex
     left: 0
@@ -107,8 +113,8 @@ h3
 // pas utliser de width 100% ni de d-flex (remplacer par des position absolute)
 //Pourquoi bottom:-40px pour que notre row maxou soit mis en dessous et par la suite caché avec overflow hidden qu'on mettera sur le parent  
     
-#englobe:hover 
-    #maxou
+.englobe:hover 
+    .maxou
         bottom: 0
 //bottom : 0 pourquoi la row maxou ce mettera en bas par apport au parent si j'avais mis top la row maxou serait mis en haut 
 // 
@@ -117,7 +123,7 @@ h3
 #overlay-1
     background-color:#0e0e0e
 #overlay-2
-    background-color:#ca544e
+    background-color: $font-RougeNathan
 
 // Prix recent product 
 
@@ -154,6 +160,94 @@ h3
 .image:hover 
     transform: scale(1.25)
 
+// Fourth-sec 
+
+#fourth-sec
+    background: url("./../../public/images/cta-bg.jpg") no-repeat center center fixed
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    height: 611.797px
+    // si t'as une image en background-image  et que la secition et vide n'oubile pas de définir la hauter 
+
+
+
+.titre-h4
+    font-size: 2.5rem
+    margin-top: 5.4rem
+
+// Five-sec 
+.blog 
+    .carousel-indicators 
+        left:0
+        top: auto
+        bottom: -40px
+        li 
+            background: #a3a3a3
+            border-radius: 50%
+            width: 8px
+            height: 8px
+.carou
+    bottom: 3.2rem 
+.carousel-indicators
+    padding-bottom: 1rem
+
+.fit-five
+    padding-top: 1.9rem
+
+// .blog .carousel-indicators .active 
+//     background: #707070
+
+    
+// Six-section 
+
+.customers-circle
+    background-color:#f3f2f3
+    // .fa-check-circle
+
+                                   
+.fast-shipping
+    background-color: $font-RougeNathan
+    
+
+//button 
+.sec-6-btn
+    font-size: 13px
+    letter-spacing: 0.8px
+    font-weight: bold
+    line-height: 1.7
+    font-family: $font-Bron
+// Seciton-seven 
+#seven-sec
+    background-color:#262626
+.zeven
+    padding-top: 50px
+
+.color-text
+    color: #aeaeae
+    font-family: $font-Bron
+    font-size: 0.94rem 
+    line-height: 1.7
+
+hr
+    background-color: white
+.color-text-2
+    color: #aeaeae
+    font-family: $font-Bron
+    font-size: 0.94rem 
+    border-color: #353535
+    border-width: 1px
+    border-style: solid
+    margin-right: 10px
+    margin-bottom: 10px
+    font-size: 11px !important
+    text-transform: uppercase
+    font-weight: 600
+    float: left
+    padding: 6px 16px 8px
+    
+
 
 
 /* query Pour smartphon*/
@@ -177,3 +271,4 @@ h3
 // Ici au moment ou l'on active le hover sur le parent (englobe) la row maxou ce met en display flex 
 // eh il n'as aucun espace entre les col ni de padding sur les coté 
 
+/* override position and transform in 3.3.x */
