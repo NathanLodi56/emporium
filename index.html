@@ -13,14 +13,15 @@
 <body>
     <!-- Header first part-->
 
-    <div class="container-fluid">
+    <div class="container-fluid theme" data-kleur="black" data-prop="backgroundColor">
         <header>
             <div class=" div-one img-logo d-flex justify-content-center">
                 <!-- <img src="./public/images/logo.png" class="img-fluid" alt="Responsive image" id="empor-img ( on à utlise les polcices de caractère et n'on l'image > -->
-                <h1>emporium.</h1>
+                <h1 class="theme" data-kleur="white" data-prop="color">emporium.</h1>
             </div>
             <!-- Navabar link part2 -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center theme" data-kleur="#25292d"
+                data-prop="backgroundColor">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,31 +30,31 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item active" id="home-link">
-                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                            <a class="nav-link theme" href="#" data-kleur="white" data-prop="color">HOME <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PRODUCT</a>
+                            <a class="nav-link theme" href="#" data-kleur="white" data-prop="color">PRODUCT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">BLOG</a>
+                            <a class="nav-link theme" href="#" data-kleur="white" data-prop="color">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ELEMENTS</a>
+                            <a class="nav-link theme" href="#" data-kleur="white" data-prop="color">ELEMENTS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a class="nav-link theme" href="#" data-kleur="white" data-prop="color">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link theme" href="#" data-kleur="white" data-prop="color">CONTACT</a>
                         </li>
 
                     </ul>
                 </div>
-
+                <!-- PARTIE BUTTON NAVABAR -->
                 <div class="carre-navabar">
-                    <button type="button" class="btn btn-light p-2 border border-dark"></button>
-                    <button type="button" class="btn btn-dark p-2"></button>
-                    <button type="button" class="btn btn-dark">Connection</button>
+                    <button type="button" class="btn btn-light p-2 border border-dark " id="blanc"></button>
+                    <button type="button" class="btn btn-dark p-2" id="noir"></button>
+                    <button type="button" class="btn btn-dark" id="btn-connection">Connection</button>
                 </div>
             </nav>
 
@@ -761,6 +762,20 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Le Modale -->
+    <div id="myModal" class="maModal">
+
+        <!-- Modal contenu -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            //look
+            <p>Some text in the Modal..</p>
+            //mettre le contenu demander dedans
+        </div>
+
+    </div>
 
 
 
