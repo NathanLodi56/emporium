@@ -21,7 +21,7 @@
             </div>
             <!-- Navabar link part2 -->
             <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center theme" data-kleur="#25292d"
-                data-prop="backgroundColor">
+                data-prop="backgroundColor" id="NavbarRecup">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -763,6 +763,15 @@
         </div>
     </section>
 
+    <!-- Footer -->
+
+    <footer id="detail-foot" class="p-4">
+        <div>
+            <p class="text-center">COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED </p>
+        </div>
+
+    </footer>
+
 
     <!-- Le Modale -->
     <div id="myModal" class="maModal">
@@ -770,11 +779,43 @@
         <!-- Modal contenu -->
         <div class="modal-content">
             <span class="close">&times;</span>
-            //look
-            <p>Some text in the Modal..</p>
-            //mettre le contenu demander dedans
-        </div>
 
+
+            <div class="text-center">
+                <button id="connect2">Connexion</button>
+                <button id="sign">Inscripition</button>
+            </div>
+
+            <div class="connexion">
+                <div class="d-flex justify-content-center mt-3">
+                    <input type="text" name="fname" placeholder="Email" class="m-2"><br>
+                    <input type="text" name="lname" placeholder="Mot de passe" class="m-2"><br>
+                </div>
+
+            </div>
+
+            <div class="text-center inscription d-none">
+
+                <div class="d-flex justify-content-center mt-3">
+                    <input type="text" name="fname" placeholder="Nom" class="m-2"><br>
+                    <input type="text" name="lname" placeholder="Prénom" class="m-2"><br>
+
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <input type="text" name="fname" placeholder="Age" class="m-2"><br>
+                    <input type="text" name="lname" placeholder="Email" class="m-2"><br>
+
+                </div>
+
+                <div class="d-flex justify-content-center mt-1">
+                    <input type="text" name="fname" placeholder="Mot de passe" class="m-2"><br>
+                </div>
+            </div>
+
+
+
+
+        </div>
     </div>
 
 
